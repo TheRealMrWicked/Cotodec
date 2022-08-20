@@ -1,7 +1,7 @@
 # Cotopha Decompiler
 This project is attempts to create program that can decompile Cotoph Script Executables (csx) files.
 
-Usage: cotodec --export --input /path/to/csx/file/name.csx --output /absolute/path/to/output/folder")
+Usage: cotodec --export --input /path/to/csx/file/name.csx --output /absolute/path/to/output/folder
 
 Please note that the relative path of the .csx file can be used but you must use the **absolute path** for the output location, it will look something like:
 
