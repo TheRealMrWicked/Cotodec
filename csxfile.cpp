@@ -300,7 +300,7 @@ void CSXFile::decompile()
                 while (threads_count >= THREADS_MAX)
                     std::this_thread::sleep_for(std::chrono::milliseconds(1));
 
-                printf("\rParse functions: %i/%lu", ++idx, offsets.size());
+                printf("\rParse functions: %i/%llu", ++idx, offsets.size());
                 new std::thread(thread_decompile, (void*)section->get_data(), section->get_size(), offset, m_image);
                 //thread_decompile((void*)section->get_data(), section->get_size(), offset, m_image);
                 ++threads_count;

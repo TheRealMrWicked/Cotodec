@@ -1,8 +1,13 @@
 #include "CmdlineParser.h"
 #include "csxfile.h"
 
+void usage() {
+    printf ("Usage: cotodec --export --input /path/to/csx/file/name.csx --output /absolute/path/to/output/folder");
+}
+
 int main(int argc, char *argv[])
 {
+    usage();
     bool export_csx, imp;
     std::string input, output;
 
