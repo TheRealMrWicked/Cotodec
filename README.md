@@ -1,4 +1,4 @@
-# Yosuga no Sora Decompiled
+# Cotopha Decompiler
 This project is attempts to create program that can decompile Cotoph Script Executables (csx) files.
 
 Usage: cotodec --export --input /path/to/csx/file/name.csx --output /absolute/path/to/output/folder")
